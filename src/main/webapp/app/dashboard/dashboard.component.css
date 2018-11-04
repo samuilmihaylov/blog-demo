@@ -1,0 +1,17 @@
+p {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow:
+    1px 0 1px #ccc, 0 1px 1px #eee,
+    2px 1px 1px #ccc, 1px 2px 1px #eee,
+    3px 2px 1px #ccc, 2px 3px 1px #eee,
+    4px 3px 1px #ccc, 3px 4px 1px #eee,
+    5px 4px 1px #ccc, 4px 5px 1px #eee,
+    6px 5px 1px #ccc, 5px 6px 1px #eee,
+    7px 6px 1px #ccc;
+  position: fixed;
+  top: 50%;
+  left: 45%;
+}
