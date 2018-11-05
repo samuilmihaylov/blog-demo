@@ -2,10 +2,11 @@ import { browser, by, element } from 'protractor';
 
 export class AppPage {
   navigateTo() {
+    browser.waitForAngularEnabled(false);
     return browser.get('/');
   }
 
-  getParagraphText() {
-    return element(by.css('app-root h1')).getText();
+  getParagraph() {
+    return element(by.css('app-dashboard p'));
   }
 }
