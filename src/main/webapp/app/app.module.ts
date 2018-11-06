@@ -1,4 +1,4 @@
-import {NgModule} from '@angular/core';
+import {DoBootstrap, NgModule} from '@angular/core';
 import {DashboardModule} from 'app/dashboard/dashboard.module';
 import {BrowserModule} from '@angular/platform-browser';
 
@@ -8,7 +8,7 @@ import {BrowserModule} from '@angular/platform-browser';
     DashboardModule
   ]
 })
-export class AppModule {
+export class AppModule implements DoBootstrap {
   ngDoBootstrap() {
   }
 }
